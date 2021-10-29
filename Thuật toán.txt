@@ -1,15 +1,26 @@
-Thuật toán tìm giá trị lớn nhất trong 3 số
-Pseudo-code
-1.BEGIN
-2.INPUT a, b, c
-3.IF a > b THEN
+THUẬT TOÁN CHUYỂN ĐỔI TIỀN
+
+
+
+
+
+
+
+
+
+
+THUËT
+
+BEGIN
+INPUT a, b, c
+IF a > b THEN
 	IF a > c THEN
 		DISPLAY a
 	ELSE
 		DISPLAY c
-  ELSE
+ELSE
 	IF b > c THEN
 		DISPLAY b
 	ELSE
 		DISPLAY c
-4.	END
+END
