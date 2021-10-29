@@ -1,26 +1,94 @@
 THUẬT TOÁN CHUYỂN ĐỔI TIỀN
 
+BEGIN
+	INPUT N
+	M = N * 23000
+	DISPLAY M
+END
+*******************************************************************************
+THUẬT TOÁN ĐỔI ĐỘ C THÀNH ĐỘ F
 
+BEGIN
+	INPUT C
+	F = (9*C)/5 + 32
+	DISPLAY F
+END
+*******************************************************************************
+THUẬT TOÁN GAME ĐOÁN SỐ
 
-
-
-
-
-
-
-
-THUËT
+BEGIN
+	INPUT N random 0-9
+	INPUT M
+	IF N==M THEN
+		DISPLAY True
+	ELSE
+		DISPLAY False
+END
+*******************************************************************************
+THUẬT TOÁN TÌM GIÁ TRỊ LỚN NHẤT TRONG 3 SỐ
 
 BEGIN
 INPUT a, b, c
-IF a > b THEN
-	IF a > c THEN
-		DISPLAY a
+	IF a > b THEN
+		IF a > c THEN
+			DISPLAY a
+		ELSE
+			DISPLAY c
 	ELSE
-		DISPLAY c
-ELSE
-	IF b > c THEN
-		DISPLAY b
-	ELSE
-		DISPLAY c
+		IF b > c THEN
+			DISPLAY b
+		ELSE
+			DISPLAY c
 END
+*******************************************************************************
+THUẬT TOÁN TÍNH ĐIỂM TRUNG BÌNH
+
+BEGIN
+	INPUT T from 0-10
+	INPUT L from 0-10
+	INPUT H from 0-10
+	AVG = (T+L+H)/3
+	DISPLAY AVG
+END
+*******************************************************************************
+THUẬT TOÁN TÌM GIÁ TRỊ LỚN NHẤT TRONG DÃY SỐ
+
+BEGIN
+	INPUT N
+	M = 1
+	WHILE M<N 
+	DO
+		INPUT N(M)
+		M = M+1
+	M = 2
+	MAX = N(1)
+	WHILE M<N
+	DO
+		IF MAX < N(M) THEN
+			MAX = N(M)
+		M = M+1
+	DISPLAY MAX
+END
+*******************************************************************************
+THUẬT TOÁN CÓ CẤU TRÚC ĐIỀU KIỆN
+
+BEGIN
+	INPUT N
+	IF N<=100 THEN
+		IF N<35 THEN
+			DISPLAY Loại E
+		ELSE
+			IF N<45 THEN 
+				DISPLAY Loại D
+			THEN
+				IF N<60 THEN
+					DISPLAY Loại C
+				THEN
+					IF N<75 THEN
+						DISPLAY Loại B
+					ELSE
+						DISPLAY Loại A
+	ELSE
+		DISPLAY Nhập sai điểm
+END
+*******************************************************************************					
