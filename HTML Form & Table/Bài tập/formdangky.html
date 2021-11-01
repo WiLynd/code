@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[Bài tập] Tạo form đơn giản</title>
+    <style>
+        .mau-xanh {
+            color: blue;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+        <table style="background: yellow">
+            <tr>
+                <td colspan="2" style="background: cyan">
+                    <h3 style="margin: 0; color: blue">
+                        ĐĂNG KÝ HỌC VIÊN
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td class="mau-xanh">
+                    Họ và tên
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="mau-xanh">
+                    Ngày sinh
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="mau-xanh">
+                    Giới tính
+                </td>
+                <td>
+                    <input type="radio" name="Giới tính">Nam
+                    <input type="radio" name="Giới tính">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td class="mau-xanh" style="padding-bottom: 30px">
+                    Địa chỉ
+                </td>
+                <td >
+                    <input type="text" style="height: 40px">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="mau-xanh">
+                    Lớp
+                </td>
+                <td>
+                    <select name="class" id="">
+                        <option value="1">- Chọn lớp -</option>
+                        <option value="2">Lớp 12A1</option>
+                        <option value="3">Lớp 12A2</option>
+                        <option value="4">Lớp 12A3</option>
+                        <option value="5">Lớp 12A4</option>
+                        <option value="6">Lớp 12A5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="mau-xanh">
+                    Email
+                </td>
+                <td>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td class="mau-xanh">
+                    Điện thoại
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
