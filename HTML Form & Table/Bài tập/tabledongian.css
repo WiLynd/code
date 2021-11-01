@@ -1,0 +1,55 @@
+table
+{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+tr td
+{
+    border: 1px solid black;
+}
+
+.table-1 table tr td
+{
+    border: none;
+}
+.table-1 p
+{
+    margin: 5px;
+}
+.center
+{
+    text-align: center;
+}
+
+.left
+{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.right
+{
+    text-align: right;
+}
+
+.o
+{
+    width: 20%;
+    text-align: center;
+    background: yellow;
+    font-weight: bold;
+}
+
+.orange
+{
+    font-weight: bold;
+    background: orange;
+}
+
+.blue
+{
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+;
+}
