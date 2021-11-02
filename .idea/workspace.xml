@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da674f20-41fb-4352-9d56-803755cf3825" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git &amp; HTML/Bài tập/GitProject/wf-hello/source/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Git &amp; HTML/Bài tập/GitProject/wf-hello/source/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/Bancovua.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/Bancovua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/formsurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/formsurvey.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +61,10 @@
       <workItem from="1635748475292" duration="11476000" />
       <workItem from="1635760513128" duration="159000" />
       <workItem from="1635760911027" duration="1085000" />
-      <workItem from="1635841033915" duration="735000" />
+      <workItem from="1635841033915" duration="832000" />
+      <workItem from="1635842514577" duration="648000" />
+      <workItem from="1635844720855" duration="336000" />
+      <workItem from="1635845259352" duration="450000" />
     </task>
     <servers />
   </component>
@@ -71,6 +76,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="721" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1635754204088" />
+    <state x="739" y="270" key="FileChooserDialogImpl" timestamp="1635841867372">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="739" y="270" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1635841867372" />
     <state x="616" y="238" key="run.anything.popup" timestamp="1635757621521">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
