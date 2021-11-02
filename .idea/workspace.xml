@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da674f20-41fb-4352-9d56-803755cf3825" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git &amp; HTML/Bài tập/GitProject/wf-hello/source/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Git &amp; HTML/Bài tập/GitProject/wf-hello/source/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/tablelich.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/tablelich.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/tablelich.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/tablelich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/Bancovua.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Bài tập/Bancovua.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <workItem from="1635748475292" duration="11476000" />
       <workItem from="1635760513128" duration="159000" />
       <workItem from="1635760911027" duration="1085000" />
-      <workItem from="1635841033915" duration="505000" />
+      <workItem from="1635841033915" duration="735000" />
     </task>
     <servers />
   </component>
