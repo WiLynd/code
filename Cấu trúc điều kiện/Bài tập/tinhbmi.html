@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tính chỉ số cân nặng của cơ thể</title>
+</head>
+<body>
+    <script>
+        var hei = parseFloat(prompt("Nhập chiều cao (m):"));
+        var wei = parseFloat(prompt("Nhập cân nặng (kg):"));
+        bmi = wei/(hei*2);
+        if (bmi < 18)
+            alert("Gầy");
+        else if (bmi < 25.0)
+            alert("Bình thường");
+        else if (bmi < 30.0)
+            alert("Mập");
+        else
+            alert("Béo phì");
+    </script>
+</body>
+</html>
