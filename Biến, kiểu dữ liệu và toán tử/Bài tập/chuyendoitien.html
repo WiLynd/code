@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>
+                    <label>Amount</label>
+                </th>
+                <th>
+                    <label>From Currency</label>
+                </th>
+                <th>
+                    <label>To Currency</label>
+                </th>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="tien">
+                </td>
+                <td>
+                    <select name="money">
+                        <option value="vn">VietNam</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="money">
+                        <option value="usd">USD</option>
+                    </select>
+                </td>
+                <td>
+                    <button type="button" onclick="chuyendoitien()">Convert</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="message"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="chuyendoitien.js"></script>
+</body>
+</html>
