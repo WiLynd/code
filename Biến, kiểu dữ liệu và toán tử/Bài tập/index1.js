@@ -1,0 +1,12 @@
+var nhapvatly;
+var nhaphoahoc;
+var nhapsinhhoc;
+nhapvatly = prompt("Nhập điểm Vật Lý:");
+nhaphoahoc = prompt("Nhập điểm Hoá Học:");
+nhapsinhhoc = prompt("Nhập điểm Sinh Học:");
+var vatly = parseInt(nhapvatly);
+var hoahoc = parseInt(nhaphoahoc);
+var sinhhoc = parseInt(nhapsinhhoc);
+var sum = vatly + hoahoc + sinhhoc;
+var avg = sum / 3;
+alert("Tổng điểm là: " + sum + ". Điểm trung bình là: " + avg);
