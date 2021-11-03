@@ -1,7 +1,7 @@
-let userName = prompt("Who's there?", '');
+var userName = prompt("Who's there?", '');
 if (userName == 'Admin')
 {
-    let pass = prompt('Password?', '');
+    var pass = prompt('Password?', '');
     if (pass == 'TheMaster') {
         alert('Welcome!');
     } else if (pass == null) {
