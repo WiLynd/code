@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Sinh bảng cửu chương</title>
+</head>
+<body>
+<script>
+    let num, i, j;
+    num = "<table border='1' cellpadding='10'>";
+    i = 1;
+    j = 2;
+    while (i < 10) {
+        num = num + "<tr>";
+        while (j < 10) {
+            num = num + "<td>" + j + " x " + i + " = " + i * j + "</td>";
+            j++;
+        }
+        num = num + "</tr>";
+        j = 2;
+        i++;
+    }
+    num = num + "</table>";
+    document.write(num);
+</script>
+</body>
+</html>
