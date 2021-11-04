@@ -11,27 +11,27 @@
     </form>
     <div id="message"></div>
     <script>
-        var a = document.getElementById('date').value;
         function tinhdate()
         {
-            switch (true)
+            a = parseInt(document.getElementById('date').value);
+            switch (a)
             {
-                case a=1:
-                case a=3:
-                case a=5:
-                case a=7:
-                case a=9:
-                case a=11:
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 9:
+                case 11:
                     document.getElementById('message').innerText = ("Tháng "+a+" có 31 ngày.");
                     break
-                case a=4:
-                case a=6:
-                case a=8:
-                case a=10:
-                case a=12:
+                case 4:
+                case 6:
+                case 8:
+                case 10:
+                case 12:
                     document.getElementById('message').innerText = ("Tháng "+a+" có 30 ngày.");
                     break
-                case a=2:
+                case 2:
                     document.getElementById('message').innerText = ("Tháng 2 có 28 hoặc 29 ngày.");
             }
         }
