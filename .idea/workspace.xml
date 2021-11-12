@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git &amp; HTML/Bài tập/GitProject/wf-hello/source/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Git &amp; HTML/Bài tập/GitProject/wf-hello/source/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng/Bài tập/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng/Bài tập/array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng/Bài tập/caro.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,8 @@
       <workItem from="1636522594766" duration="33000" />
       <workItem from="1636532485300" duration="53000" />
       <workItem from="1636620206940" duration="5117000" />
-      <workItem from="1636699003857" duration="3123000" />
+      <workItem from="1636699003857" duration="3384000" />
+      <workItem from="1636703021534" duration="304000" />
     </task>
     <servers />
   </component>
