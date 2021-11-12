@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Chuyển đổi nhiệt độ</title>
+</head>
+<body>
+
+<form>
+    <p>
+        <label>Độ F</label>
+        <input id="inputF" type="number" placeholder="F"
+               oninput="temperature(this.value)"
+               onchange="temperature(this.value)">
+    </p>
+    <p>Độ C: <span id="outputC"></span></p>
+</form>
+
+<script>
+
+    function temperature(n) {
+        n = parseFloat(n);
+        document.getElementById("outputC").innerHTML = (n-32) / 1.8;
+    }
+
+</script>
+</body>
+</html>
