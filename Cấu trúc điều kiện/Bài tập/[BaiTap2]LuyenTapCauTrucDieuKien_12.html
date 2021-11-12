@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let n = parseInt(prompt("Nhập số tiền:"));
+        let m = parseInt(prompt("Nhập số tháng gửi:"));
+        let l = parseInt(prompt("Nhập lãi suất (%):"));
+        let x = n; let y = l/100;
+        for ( i = 1; i <= m; i++)
+            x = x + x*y;
+        alert("Số tiền nhận: "+ x);
+    </script>
+</body>
+</html>
