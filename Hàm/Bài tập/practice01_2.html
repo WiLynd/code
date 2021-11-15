@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập tạo và sử dụng hàm 01</title>
+</head>
+<body>
+    <span>Nhập vào 1 số:</span>
+    <input type="number" oninput="addValue(this.value)">
+    <p>Kết quả: <span id="result"></span></p>
+    <script>
+        function addValue(n) {
+            n = parseInt(n);
+            document.getElementById("result").innerText = n+1;
+        }
+    </script>
+</body>
+</html>
