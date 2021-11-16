@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập tạo và sử dụng hàm 02</title>
+</head>
+<body>
+    <script>
+        r = parseFloat(prompt("Nhập bán kính hình tròn:"));
+        s = dienTich(r);
+        c = chuVi(r);
+        function dienTich(num) {
+            return Math.pow(num,2)*Math.PI;
+        }
+        function chuVi(num) {
+            return num*2*Math.PI;
+        }
+        alert("Diện tích: "+ s + " Chu vi: "+ c)
+    </script>
+</body>
+</html>
