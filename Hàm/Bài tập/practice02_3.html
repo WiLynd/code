@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập tạo và sử dụng hàm 02</title>
+</head>
+<body>
+<script>
+    a = parseInt(prompt("Nhập một số bất kỳ: "));
+    a = fatorial(a);
+    function fatorial(num) {
+        n = 1;
+        for (i = 1; i <= num; i++)
+            n = n*i;
+        return n;
+    }
+    alert("Kết quả: "+ a);
+</script>
+</body>
+</html>
