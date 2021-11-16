@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập tạo và sử dụng hàm 02</title>
+</head>
+<body>
+    <script>
+        let a = new Array(2)
+        a[0] = parseInt(prompt("Nhập vào số thứ 1:"));
+        a[1] = parseInt(prompt("Nhập vào số thứ 2:"));
+        console.log("Before: "+ a);
+        swap();
+        function swap() {
+            temp = a[0];
+            a[0] = a[1];
+            a[1] = temp;
+        }
+        console.log("After:"+ a);
+    </script>
+</body>
+</html>
