@@ -6,20 +6,22 @@
 </head>
 <body>
 <script>
-    function isPalidrome(s){
-        if(s.length <= 1){
+    function isPalidrome(s) {
+        if (s.length <= 1) {
             return true;
-        }else{
-            if(s[0] === s[s.length-1]){
+        }
+        else {
+            if(s[0] === s[s.length-1]) {
                 s.pop();
                 s.shift()
                 return isPalidrome(s)
-            }else{
+            }
+            else {
                 return false;
             }
         }
     }
-    let s = ["a","b","c","a","b","c"]
+    let s = ["abcdcba"]
     console.log(isPalidrome(s))
 </script>
 </body>
