@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả Temperature</title>
+</head>
+<body>
+    <script>
+        class Temperature {
+            constructor() {
+                this.temp = parseFloat(prompt("Nhập độ C: "));
+            }
+            convertF() {
+                console.log("Độ F: "+ (9/5*this.temp+32));
+            }
+            convertK() {
+                console.log("Độ K: "+ (this.temp+273.15));
+            }
+        }
+        let tempObj = new Temperature();
+        tempObj.convertF();
+        tempObj.convertK();
+    </script>
+</body>
+</html>
