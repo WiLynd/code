@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả hình chữ nhật</title>
+</head>
+<body>
+    <canvas id="canvasHTML" width="1000" height="1000"></canvas>
+    <script>
+        let canvasHTML = document.getElementById("canvasHTML");
+        let canvasObj = canvasHTML.getContext("2d");
+        let w = prompt("Nhập chiều rộng (px): ");
+        let h = prompt("Nhập chiều cao (px): ");
+        canvasObj.beginPath();
+        canvasObj.rect(10, 10, w, h);
+        canvasObj.stroke();
+        canvasObj.fillStyle = "pink";
+        canvasObj.fill();
+    </script>
+</body>
+</html>
